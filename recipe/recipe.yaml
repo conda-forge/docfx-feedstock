@@ -1,11 +1,8 @@
-schema_version: 1
-
 context:
-  name: docfx
   version: 2.77.0
 
 package:
-  name: ${{ name|lower }}
+  name: docfx
   version: ${{ version }}
 
 source:
@@ -39,4 +36,3 @@ about:
 extra:
   recipe-maintainers:
     - danielnachun
-
