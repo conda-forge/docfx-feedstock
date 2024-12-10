@@ -29,3 +29,5 @@ tee ignored_packages.json << EOF
 ["Stubble.Core"]
 EOF
 dotnet-project-licenses --input src/docfx/docfx.csproj -t -d license-files -ignore ignored_packages.json
+
+rm ${PREFIX}/bin/dotnet
