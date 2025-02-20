@@ -4,7 +4,7 @@
 
 [project]
 name = "docfx-feedstock"
-version = "3.44.9"
+version = "3.45.4"
 description = "Pixi configuration for conda-forge/docfx-feedstock"
 authors = ["@conda-forge/docfx"]
 channels = ["conda-forge"]
