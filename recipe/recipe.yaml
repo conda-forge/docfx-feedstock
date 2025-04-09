@@ -1,5 +1,5 @@
 context:
-  version: 2.77.0
+  version: "2.78.3"
 
 package:
   name: docfx
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/dotnet/docfx/archive/v${{ version }}.tar.gz
-  sha256: 03c13ca2cdb4a476365ef8f5b7f408a6cf6e35f0193c959d7765c03dd4884bfb
+  sha256: d97142ff71bd84e200e6d121f09f57d28379a0c9d12cb58f23badad22cc5c1b7
 
 build:
-  number: 1
+  number: 0
   noarch: generic
 
 requirements:
